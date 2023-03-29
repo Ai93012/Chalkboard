@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<!-- css -->
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chalk Board</title>
+</head>
+
+<body>
+  <canvas id="jscanvas" class="canvas"></canvas>
+  <div class="controls">
+    <div class="controlbtns">
+      <button id="jseraser">ERASER</button>
+      <button id="jsclear">CLEAR</button>
+      <button id="jssave">SAVE</button>
+    </div>
+    <div class="controlrange">
+      <input type="range" id="jsrange" min="1" max="19" value="5" step="1" />
+    </div>
+    <div class="controlcolors" id="jscolors">
+      <div class="controlcolor jscolor" style="background-color: #FFFFFF;"></div>
+      <div class="controlcolor jscolor" style="background-color: #F48FB1;"></div>
+      <div class="controlcolor jscolor" style="background-color: #FFAB91;"></div>
+      <div class="controlcolor jscolor" style="background-color: #FFF59D;"></div>
+      <div class="controlcolor jscolor" style="background-color: #C5E1A5;"></div>
+      <div class="controlcolor jscolor" style="background-color: #80CBC4;"></div>
+      <div class="controlcolor jscolor" style="background-color: #81D4FA;"></div>
+      <div class="controlcolor jscolor" style="background-color: #9FA8DA;"></div>
+      <div class="controlcolor jscolor" style="background-color: #CE93D8;"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
