@@ -3,6 +3,8 @@
 
 It's a drawing app that feels like writing a chalkboard using JavaScript canvas. Both PC and mobile are available.
 
+---
+
 사용 방법
 1. 원하는 색상을 클릭 해 사용할 수 있습니다.
 2. 슬라이더로 분필의 크기를 조절할 수 있습니다.
@@ -20,6 +22,8 @@ The default size of the eraser is larger than chalk. Instead, erasers can also b
 Click the eraser button again to return to the default size.
 4. Press the CLEAR button to erase all of them.
 5. Press the SAVE button to save the completed picture.
+
+---
 
 이 프로그램은 노마드 코더의 강의를 참고 했습니다.
 
